@@ -1,0 +1,474 @@
+make: Entering directory `/home/yangxudong/android/mm'
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=6.0.1
+TARGET_PRODUCT=full_lte26007
+TARGET_BUILD_VARIANT=userdebug
+TARGET_BUILD_TYPE=release
+TARGET_BUILD_APPS=
+TARGET_ARCH=arm
+TARGET_ARCH_VARIANT=armv7-a-neon
+TARGET_CPU_VARIANT=cortex-a7
+TARGET_2ND_ARCH=
+TARGET_2ND_ARCH_VARIANT=
+TARGET_2ND_CPU_VARIANT=
+HOST_ARCH=x86_64
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-3.16.0-30-generic-x86_64-with-Ubuntu-14.04-trusty
+HOST_BUILD_TYPE=release
+BUILD_ID=MOB30M
+OUT_DIR=out
+============================================
+exist device/leadcore/lte26007/feature_config.mk
+exist /home/yangxudong/android/mm/device/leadcore/common/c_feature_flags.mk
+GLOBAL_FEATURE_CFLAGS =  -DLEADCORE_CONFIG_IS_MASS -DOPT_PROJ_TARGET_CMCC -DUSE_MALIT6XX_R5=1 -DUSE_VIVANTE_2D=1 -DUSE_ON2=1 -DUSE_MALIV5XX=0 -DDOUBLE_UDISK_ENABLE=0 -DBROWSER_AUTO_FILL_ENABLE=1 -DBROWSER_INVERT_SCREEN_ENABLE=0 -DBROWSER_AUDIO_FILTER_ENABLE=0 -DBROWSER_PRIVATE_BROWSING_ENABLE=0 -DUSE_LOW_RAM=0 -DMALI_AFBC_GRALLOC=0
+PRODUCT_COPY_FILES device/generic/goldfish/data/etc/apns-conf.xml:system/etc/apns-conf.xml ignored.
+No private recovery resources for TARGET_DEVICE lte26007
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-CommonUtilitiesLib_intermediates/export_includes
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileLib_intermediates/export_includes
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/DarwinStreamingServer_intermediates/import_includes
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/GenerateXMLPrefs.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/main.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSCallbacks.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSDataConverter.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSDictionary.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSErrorLogModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSServer.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSServerInterface.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSServerPrefs.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSExpirationDate.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSFile.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSMessages.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSPrefs.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSSocket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/QTSSUserProfile.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTCPTask.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPBandwidthTracker.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPOverbufferWindow.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPPacketResender.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPSession3GPP.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPSession.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPSessionInterface.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPStream3gpp.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTPStream.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPProtocol.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPRequest3GPP.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPRequest.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPRequestInterface.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPRequestStream.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPResponseStream.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPSession3GPP.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPSession.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RTSPSessionInterface.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/Server.tproj/RunServer.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/PrefsSourceLib/FilePrefsSource.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/PrefsSourceLib/XMLPrefsParser.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/PrefsSourceLib/XMLParser.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/OSMemoryLib/OSMemory.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTSPClientLib/RTSPClient.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTSPClientLib/ClientSocket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/HTTPUtilitiesLib/HTTPProtocol.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/HTTPUtilitiesLib/HTTPRequest.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAckPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPNADUPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPQTSSPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPSRPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/QTAccessFile.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APICommonCode/QTSS3GPPModuleUtils.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAccessLogModule/QTSSAccessLogModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSFileModule/QTSSFileModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSFlowControlModule/QTSSFlowControlModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/QTSSReflectorModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/QTSSRelayModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/ReflectorSession.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RelaySession.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/ReflectorStream.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RCFSourceInfo.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RTSPSourceInfo.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RelayOutput.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RelaySDPSourceInfo.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/RTPSessionOutput.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSReflectorModule/SequenceNumberMap.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSWebDebugModule/QTSSWebDebugModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSWebStatsModule/QTSSWebStatsModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSPOSIXFileSysModule/QTSSPosixFileSysModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAdminModule/AdminElementNode.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAdminModule/AdminQuery.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAdminModule/QTSSAdminModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSMP3StreamingModule/QTSSMP3StreamingModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSRTPFileModule/QTSSRTPFileModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSRTPFileModule/RTPFileSession.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAccessModule/QTSSAccessModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSHttpFileModule/QTSSHttpFileModule.cpp
+target thumb C++: DarwinStreamingServer <= darwinstreamingserver-master/APIModules/QTSSAccessModule/AccessChecker.cpp
+target thumb C: DarwinStreamingServer <= darwinstreamingserver-master/CommonUtilitiesLib/daemon.c
+Import includes file: out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-CommonUtilitiesLib_intermediates/import_includes
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/atomic.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/ConfParser.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/DateTranslator.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/EventContext.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/IdleTask.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/MyAssert.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OS.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSCodeFragment.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSCond.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSFileSource.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSHeap.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSBufferPool.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSMutex.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSMutexRW.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSQueue.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSRef.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/OSThread.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/Socket.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/SocketUtils.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/ResizeableStringFormatter.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/StringFormatter.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/StringParser.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/StringTranslator.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/StrPtrLen.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/Task.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/TCPListenerSocket.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/TCPSocket.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/TimeoutTask.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/UDPDemuxer.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/UDPSocket.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/UDPSocketPool.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/ev.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/UserAgentParser.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/QueryParamList.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/md5digest.cpp
+target thumb C++: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/SDPUtils.cpp
+target thumb C: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/base64.c
+target thumb C: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/GetWord.c
+target thumb C: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/Trim.c
+target thumb C: darwin-CommonUtilitiesLib <= darwinstreamingserver-master/CommonUtilitiesLib/md5.c
+target StaticLib: darwin-CommonUtilitiesLib (out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-CommonUtilitiesLib_intermediates/darwin-CommonUtilitiesLib.a)
+Import includes file: out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileLib_intermediates/import_includes
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_dref.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_elst.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_hinf.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_mdhd.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_mvhd.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stco.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsc.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsd.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stss.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsz.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stts.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_tkhd.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTAtom_tref.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTFile.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTFile_FileControlBlock.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTHintTrack.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTRTPFile.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/QTFileLib/QTTrack.cpp
+target thumb C++: darwin-QTFileLib <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target StaticLib: darwin-QTFileLib (out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileLib_intermediates/darwin-QTFileLib.a)
+target Executable: DarwinStreamingServer (out/target/product/lte26007/obj/EXECUTABLES/DarwinStreamingServer_intermediates/LINKED/DarwinStreamingServer)
+target Unpacked: DarwinStreamingServer (out/target/product/lte26007/obj/EXECUTABLES/DarwinStreamingServer_intermediates/PACKED/DarwinStreamingServer)
+target Symbolic: DarwinStreamingServer (out/target/product/lte26007/symbols/system/bin/DarwinStreamingServer)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/DarwinStreamingServer_intermediates/export_includes
+target Strip: DarwinStreamingServer (out/target/product/lte26007/obj/EXECUTABLES/DarwinStreamingServer_intermediates/DarwinStreamingServer)
+Import includes file: out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSDemoAuthorizationModule_intermediates/import_includes
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APIModules/OSMemory_Modules/OSMemory_Modules.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: QTSSDemoAuthorizationModule <= darwinstreamingserver-master/APIModules/QTSSDemoAuthorizationModule.bproj/QTSSDemoAuthorizationModule.cpp
+target SharedLib: QTSSDemoAuthorizationModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSDemoAuthorizationModule_intermediates/LINKED/QTSSDemoAuthorizationModule.so)
+target Pack Relocations: QTSSDemoAuthorizationModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSDemoAuthorizationModule_intermediates/PACKED/QTSSDemoAuthorizationModule.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Symbolic: QTSSDemoAuthorizationModule (out/target/product/lte26007/symbols/system/bin/QTSSDemoAuthorizationModule.so)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSDemoAuthorizationModule_intermediates/export_includes
+target Strip: QTSSDemoAuthorizationModule (out/target/product/lte26007/obj/lib/QTSSDemoAuthorizationModule.so)
+Copy: out/target/product/lte26007/system/lib/StreamingServerModules/QTSSDemoAuthorizationModule
+Import includes file: out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSHomeDirectoryModule_intermediates/import_includes
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APIModules/OSMemory_Modules/OSMemory_Modules.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APIModules/QTSSHomeDirectoryModule/DirectoryInfo.cpp
+target thumb C++: QTSSHomeDirectoryModule <= darwinstreamingserver-master/APIModules/QTSSHomeDirectoryModule/QTSSHomeDirectoryModule.cpp
+target SharedLib: QTSSHomeDirectoryModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSHomeDirectoryModule_intermediates/LINKED/QTSSHomeDirectoryModule.so)
+target Pack Relocations: QTSSHomeDirectoryModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSHomeDirectoryModule_intermediates/PACKED/QTSSHomeDirectoryModule.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Symbolic: QTSSHomeDirectoryModule (out/target/product/lte26007/symbols/system/bin/QTSSHomeDirectoryModule.so)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSHomeDirectoryModule_intermediates/export_includes
+target Strip: QTSSHomeDirectoryModule (out/target/product/lte26007/obj/lib/QTSSHomeDirectoryModule.so)
+Copy: out/target/product/lte26007/system/lib/StreamingServerModules/QTSSHomeDirectoryModule
+Import includes file: out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRawFileModule_intermediates/import_includes
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APIModules/OSMemory_Modules/OSMemory_Modules.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTSSRawFileModule <= darwinstreamingserver-master/APIModules/QTSSRawFileModule.bproj/QTSSRawFileModule.cpp
+target SharedLib: QTSSRawFileModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRawFileModule_intermediates/LINKED/QTSSRawFileModule.so)
+target Pack Relocations: QTSSRawFileModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRawFileModule_intermediates/PACKED/QTSSRawFileModule.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Symbolic: QTSSRawFileModule (out/target/product/lte26007/symbols/system/bin/QTSSRawFileModule.so)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRawFileModule_intermediates/export_includes
+target Strip: QTSSRawFileModule (out/target/product/lte26007/obj/lib/QTSSRawFileModule.so)
+Copy: out/target/product/lte26007/system/lib/StreamingServerModules/QTSSRawFileModule
+Import includes file: out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRefMovieModule_intermediates/import_includes
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APIModules/OSMemory_Modules/OSMemory_Modules.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: QTSSRefMovieModule <= darwinstreamingserver-master/APIModules/QTSSRefMovieModule/QTSSRefMovieModule.cpp
+target SharedLib: QTSSRefMovieModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRefMovieModule_intermediates/LINKED/QTSSRefMovieModule.so)
+target Pack Relocations: QTSSRefMovieModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRefMovieModule_intermediates/PACKED/QTSSRefMovieModule.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Symbolic: QTSSRefMovieModule (out/target/product/lte26007/symbols/system/bin/QTSSRefMovieModule.so)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSRefMovieModule_intermediates/export_includes
+target Strip: QTSSRefMovieModule (out/target/product/lte26007/obj/lib/QTSSRefMovieModule.so)
+Copy: out/target/product/lte26007/system/lib/StreamingServerModules/QTSSRefMovieModule
+Import includes file: out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSSpamDefenseModule_intermediates/import_includes
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APIModules/OSMemory_Modules/OSMemory_Modules.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APIStubLib/QTSS_Private.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APICommonCode/QTSSModuleUtils.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: QTSSSpamDefenseModule <= darwinstreamingserver-master/APIModules/QTSSSpamDefenseModule.bproj/QTSSSpamDefenseModule.cpp
+target SharedLib: QTSSSpamDefenseModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSSpamDefenseModule_intermediates/LINKED/QTSSSpamDefenseModule.so)
+target Pack Relocations: QTSSSpamDefenseModule (out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSSpamDefenseModule_intermediates/PACKED/QTSSSpamDefenseModule.so)
+INFO: Compaction                 : 0 bytes
+INFO: Too few relocations to pack after alignment
+target Symbolic: QTSSSpamDefenseModule (out/target/product/lte26007/symbols/system/bin/QTSSSpamDefenseModule.so)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/SHARED_LIBRARIES/QTSSSpamDefenseModule_intermediates/export_includes
+target Strip: QTSSSpamDefenseModule (out/target/product/lte26007/obj/lib/QTSSSpamDefenseModule.so)
+Copy: out/target/product/lte26007/system/lib/StreamingServerModules/QTSSSpamDefenseModule
+Install: out/target/product/lte26007/system/bin/DarwinStreamingServer
+target Prebuilt: createuserstreamingdir (out/target/product/lte26007/obj/EXECUTABLES/createuserstreamingdir_intermediates/createuserstreamingdir)
+Install: out/target/product/lte26007/system/bin/createuserstreamingdir
+Import includes file: out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-MP3Broadcaster_intermediates/import_includes
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/MP3Broadcaster/BroadcasterMain.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/MP3Broadcaster/MP3Broadcaster.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/MP3Broadcaster/MP3BroadcasterLog.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/MP3Broadcaster/MP3FileBroadcaster.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/MP3Broadcaster/MP3MetaInfoUpdater.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/NoRepeat.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PickerFromFile.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PlaylistPicker.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: darwin-MP3Broadcaster <= darwinstreamingserver-master/OSMemoryLib/OSMemory.cpp
+target thumb C: darwin-MP3Broadcaster <= darwinstreamingserver-master/CommonUtilitiesLib/daemon.c
+target thumb C: darwin-MP3Broadcaster <= darwinstreamingserver-master/CommonUtilitiesLib/getopt.c
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-MP3Broadcaster_intermediates/export_includes
+target StaticLib: darwin-MP3Broadcaster (out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-MP3Broadcaster_intermediates/darwin-MP3Broadcaster.a)
+target Executable: MP3Broadcaster (out/target/product/lte26007/obj/EXECUTABLES/MP3Broadcaster_intermediates/LINKED/MP3Broadcaster)
+target Unpacked: MP3Broadcaster (out/target/product/lte26007/obj/EXECUTABLES/MP3Broadcaster_intermediates/PACKED/MP3Broadcaster)
+target Symbolic: MP3Broadcaster (out/target/product/lte26007/symbols/system/bin/MP3Broadcaster)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/MP3Broadcaster_intermediates/export_includes
+target Strip: MP3Broadcaster (out/target/product/lte26007/obj/EXECUTABLES/MP3Broadcaster_intermediates/MP3Broadcaster)
+Install: out/target/product/lte26007/system/bin/MP3Broadcaster
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileExternalLib_intermediates/export_includes
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/PlaylistBroadcaster_intermediates/import_includes
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/BCasterTracker.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/BroadcastLog.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/NoRepeat.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PickerFromFile.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PlaylistBroadcaster.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PlaylistPicker.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_broadcaster.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_elements.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_lists.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_parsers.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_SDPGen.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_SimpleParse.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/playlist_utils.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/PLBroadcastDef.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/PlaylistBroadcaster.tproj/BroadcasterSession.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/APICommonCode/QTSSRollingLog.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/RTSPClientLib/ClientSocket.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/RTSPClientLib/RTSPClient.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/OSMemoryLib/OSMemory.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: PlaylistBroadcaster <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C: PlaylistBroadcaster <= darwinstreamingserver-master/CommonUtilitiesLib/daemon.c
+target thumb C: PlaylistBroadcaster <= darwinstreamingserver-master/CommonUtilitiesLib/getopt.c
+Import includes file: out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileExternalLib_intermediates/import_includes
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_dref.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_elst.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_hinf.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_mdhd.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_mvhd.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stco.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsc.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsd.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stss.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stsz.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_stts.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_tkhd.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTAtom_tref.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTFile.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTFile_FileControlBlock.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTHintTrack.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTRTPFile.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/QTFileLib/QTTrack.cpp
+target thumb C++: darwin-QTFileExternalLib <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target StaticLib: darwin-QTFileExternalLib (out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-QTFileExternalLib_intermediates/darwin-QTFileExternalLib.a)
+target Executable: PlaylistBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/PlaylistBroadcaster_intermediates/LINKED/PlaylistBroadcaster)
+target Unpacked: PlaylistBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/PlaylistBroadcaster_intermediates/PACKED/PlaylistBroadcaster)
+target Symbolic: PlaylistBroadcaster (out/target/product/lte26007/symbols/system/bin/PlaylistBroadcaster)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/PlaylistBroadcaster_intermediates/export_includes
+target Strip: PlaylistBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/PlaylistBroadcaster_intermediates/PlaylistBroadcaster)
+Install: out/target/product/lte26007/system/bin/PlaylistBroadcaster
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTBroadcaster_intermediates/import_includes
+target thumb C++: QTBroadcaster <= darwinstreamingserver-master/QTFileTools/QTBroadcaster.tproj/QTBroadcaster.cpp
+target thumb C++: QTBroadcaster <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/QTBroadcaster_intermediates/LINKED/QTBroadcaster)
+target Unpacked: QTBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/QTBroadcaster_intermediates/PACKED/QTBroadcaster)
+target Symbolic: QTBroadcaster (out/target/product/lte26007/symbols/system/bin/QTBroadcaster)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTBroadcaster_intermediates/export_includes
+target Strip: QTBroadcaster (out/target/product/lte26007/obj/EXECUTABLES/QTBroadcaster_intermediates/QTBroadcaster)
+Install: out/target/product/lte26007/system/bin/QTBroadcaster
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTFileTest_intermediates/import_includes
+target thumb C++: QTFileTest <= darwinstreamingserver-master/QTFileTools/QTFileTest.tproj/QTFileTest.cpp
+target thumb C++: QTFileTest <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTFileTest <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTFileTest_intermediates/LINKED/QTFileTest)
+target Unpacked: QTFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTFileTest_intermediates/PACKED/QTFileTest)
+target Symbolic: QTFileTest (out/target/product/lte26007/symbols/system/bin/QTFileTest)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTFileTest_intermediates/export_includes
+target Strip: QTFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTFileTest_intermediates/QTFileTest)
+Install: out/target/product/lte26007/system/bin/QTFileTest
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTRTPFileTest_intermediates/import_includes
+target thumb C++: QTRTPFileTest <= darwinstreamingserver-master/QTFileTools/QTRTPFileTest.tproj/QTRTPFileTest.cpp
+target thumb C++: QTRTPFileTest <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTRTPFileTest <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTRTPFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTRTPFileTest_intermediates/LINKED/QTRTPFileTest)
+target Unpacked: QTRTPFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTRTPFileTest_intermediates/PACKED/QTRTPFileTest)
+target Symbolic: QTRTPFileTest (out/target/product/lte26007/symbols/system/bin/QTRTPFileTest)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTRTPFileTest_intermediates/export_includes
+target Strip: QTRTPFileTest (out/target/product/lte26007/obj/EXECUTABLES/QTRTPFileTest_intermediates/QTRTPFileTest)
+Install: out/target/product/lte26007/system/bin/QTRTPFileTest
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTRTPGen_intermediates/import_includes
+target thumb C++: QTRTPGen <= darwinstreamingserver-master/QTFileTools/QTRTPGen.tproj/QTRTPGen.cpp
+target thumb C++: QTRTPGen <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTRTPGen <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTRTPGen (out/target/product/lte26007/obj/EXECUTABLES/QTRTPGen_intermediates/LINKED/QTRTPGen)
+target Unpacked: QTRTPGen (out/target/product/lte26007/obj/EXECUTABLES/QTRTPGen_intermediates/PACKED/QTRTPGen)
+target Symbolic: QTRTPGen (out/target/product/lte26007/symbols/system/bin/QTRTPGen)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTRTPGen_intermediates/export_includes
+target Strip: QTRTPGen (out/target/product/lte26007/obj/EXECUTABLES/QTRTPGen_intermediates/QTRTPGen)
+Install: out/target/product/lte26007/system/bin/QTRTPGen
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTSDPGen_intermediates/import_includes
+target thumb C++: QTSDPGen <= darwinstreamingserver-master/QTFileTools/QTSDPGen.tproj/QTSDPGen.cpp
+target thumb C++: QTSDPGen <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTSDPGen <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTSDPGen (out/target/product/lte26007/obj/EXECUTABLES/QTSDPGen_intermediates/LINKED/QTSDPGen)
+target Unpacked: QTSDPGen (out/target/product/lte26007/obj/EXECUTABLES/QTSDPGen_intermediates/PACKED/QTSDPGen)
+target Symbolic: QTSDPGen (out/target/product/lte26007/symbols/system/bin/QTSDPGen)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTSDPGen_intermediates/export_includes
+target Strip: QTSDPGen (out/target/product/lte26007/obj/EXECUTABLES/QTSDPGen_intermediates/QTSDPGen)
+Install: out/target/product/lte26007/system/bin/QTSDPGen
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTSampleLister_intermediates/import_includes
+target thumb C++: QTSampleLister <= darwinstreamingserver-master/QTFileTools/QTSampleLister.tproj/QTSampleLister.cpp
+target thumb C++: QTSampleLister <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTSampleLister <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTSampleLister (out/target/product/lte26007/obj/EXECUTABLES/QTSampleLister_intermediates/LINKED/QTSampleLister)
+target Unpacked: QTSampleLister (out/target/product/lte26007/obj/EXECUTABLES/QTSampleLister_intermediates/PACKED/QTSampleLister)
+target Symbolic: QTSampleLister (out/target/product/lte26007/symbols/system/bin/QTSampleLister)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTSampleLister_intermediates/export_includes
+target Strip: QTSampleLister (out/target/product/lte26007/obj/EXECUTABLES/QTSampleLister_intermediates/QTSampleLister)
+Install: out/target/product/lte26007/system/bin/QTSampleLister
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/QTTrackInfo_intermediates/import_includes
+target thumb C++: QTTrackInfo <= darwinstreamingserver-master/QTFileTools/QTTrackInfo.tproj/QTTrackInfo.cpp
+target thumb C++: QTTrackInfo <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: QTTrackInfo <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target Executable: QTTrackInfo (out/target/product/lte26007/obj/EXECUTABLES/QTTrackInfo_intermediates/LINKED/QTTrackInfo)
+target Unpacked: QTTrackInfo (out/target/product/lte26007/obj/EXECUTABLES/QTTrackInfo_intermediates/PACKED/QTTrackInfo)
+target Symbolic: QTTrackInfo (out/target/product/lte26007/symbols/system/bin/QTTrackInfo)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/QTTrackInfo_intermediates/export_includes
+target Strip: QTTrackInfo (out/target/product/lte26007/obj/EXECUTABLES/QTTrackInfo_intermediates/QTTrackInfo)
+Install: out/target/product/lte26007/system/bin/QTTrackInfo
+Import includes file: out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-StreamingLoadTool_intermediates/import_includes
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/StreamingLoadTool/StreamingLoadTool.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTSPClientLib/ClientSocket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTSPClientLib/RTSPClient.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTSPClientLib/ClientSession.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAckPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPNADUPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPAPPQTSSPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTCPUtilitiesLib/RTCPSRPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/PrefsSourceLib/FilePrefsSource.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/APICommonCode/SDPSourceInfo.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/APICommonCode/SourceInfo.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/RTPMetaInfoLib/RTPMetaInfoPacket.cpp
+target thumb C++: darwin-StreamingLoadTool <= darwinstreamingserver-master/OSMemoryLib/OSMemory.cpp
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-StreamingLoadTool_intermediates/export_includes
+target StaticLib: darwin-StreamingLoadTool (out/target/product/lte26007/obj/STATIC_LIBRARIES/darwin-StreamingLoadTool_intermediates/darwin-StreamingLoadTool.a)
+target Executable: StreamingLoadTool (out/target/product/lte26007/obj/EXECUTABLES/StreamingLoadTool_intermediates/LINKED/StreamingLoadTool)
+target Unpacked: StreamingLoadTool (out/target/product/lte26007/obj/EXECUTABLES/StreamingLoadTool_intermediates/PACKED/StreamingLoadTool)
+target Symbolic: StreamingLoadTool (out/target/product/lte26007/symbols/system/bin/StreamingLoadTool)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/StreamingLoadTool_intermediates/export_includes
+target Strip: StreamingLoadTool (out/target/product/lte26007/obj/EXECUTABLES/StreamingLoadTool_intermediates/StreamingLoadTool)
+Install: out/target/product/lte26007/system/bin/StreamingLoadTool
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/StreamingProxy_intermediates/import_includes
+target thumb C: StreamingProxy <= darwinstreamingserver-master/StreamingProxy.tproj/get_opt.c
+target thumb C: StreamingProxy <= darwinstreamingserver-master/StreamingProxy.tproj/proxy.c
+target thumb C: StreamingProxy <= darwinstreamingserver-master/StreamingProxy.tproj/util.c
+target thumb C: StreamingProxy <= darwinstreamingserver-master/StreamingProxy.tproj/shared_udp.c
+target thumb C: StreamingProxy <= darwinstreamingserver-master/StreamingProxy.tproj/proxy_unix.c
+target Executable: StreamingProxy (out/target/product/lte26007/obj/EXECUTABLES/StreamingProxy_intermediates/LINKED/StreamingProxy)
+target Unpacked: StreamingProxy (out/target/product/lte26007/obj/EXECUTABLES/StreamingProxy_intermediates/PACKED/StreamingProxy)
+target Symbolic: StreamingProxy (out/target/product/lte26007/symbols/system/bin/StreamingProxy)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/StreamingProxy_intermediates/export_includes
+target Strip: StreamingProxy (out/target/product/lte26007/obj/EXECUTABLES/StreamingProxy_intermediates/StreamingProxy)
+Install: out/target/product/lte26007/system/bin/StreamingProxy
+Import includes file: out/target/product/lte26007/obj/EXECUTABLES/qtpasswd_intermediates/import_includes
+target thumb C++: qtpasswd <= darwinstreamingserver-master/qtpasswd.tproj/QTSSPasswd.cpp
+target thumb C++: qtpasswd <= darwinstreamingserver-master/SafeStdLib/InternalStdLib.cpp
+target thumb C++: qtpasswd <= darwinstreamingserver-master/OSMemoryLib/OSMemory.cpp
+target Executable: qtpasswd (out/target/product/lte26007/obj/EXECUTABLES/qtpasswd_intermediates/LINKED/qtpasswd)
+target Unpacked: qtpasswd (out/target/product/lte26007/obj/EXECUTABLES/qtpasswd_intermediates/PACKED/qtpasswd)
+target Symbolic: qtpasswd (out/target/product/lte26007/symbols/system/bin/qtpasswd)
+Export includes file: darwinstreamingserver-master/Android.mk -- out/target/product/lte26007/obj/EXECUTABLES/qtpasswd_intermediates/export_includes
+target Strip: qtpasswd (out/target/product/lte26007/obj/EXECUTABLES/qtpasswd_intermediates/qtpasswd)
+Install: out/target/product/lte26007/system/bin/qtpasswd
+target Prebuilt: streamingserver.xml (out/target/product/lte26007/obj/ETC/streamingserver.xml_intermediates/streamingserver.xml)
+Install: out/target/product/lte26007/system/etc/streaming/streamingserver.xml
+target Prebuilt: sample_h264_100kbit.mp4 (out/target/product/lte26007/obj/DATA/sample_h264_100kbit.mp4_intermediates/sample_h264_100kbit.mp4)
+Install: out/target/product/lte26007/system/media/streaming/sample_h264_100kbit.mp4
+make: Leaving directory `/home/yangxudong/android/mm'
+
+[0;32m#### make completed successfully (01:32 (mm:ss)) ####[00m
+
